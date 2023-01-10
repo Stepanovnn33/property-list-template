@@ -1,0 +1,53 @@
+.tasks-manager {
+  background: #4979f4;
+  color: #ffffff;
+  width: 75%;
+  margin: 0 auto;
+  padding: 25px 75px;
+  height: 650px;
+  overflow: scroll;
+}
+
+.tasks-manager__title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tasks-list__item {
+  background: #ffffff;
+  color: #000000;
+  font-size: 20px;
+  padding: 25px;
+  width: 90%;
+  margin: 15px auto;
+  position: relative;
+}
+
+.tasks-list__item__remove {
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 16px;
+  color: red;
+  cursor: pointer;
+}
+
+.task-form__submit-message {
+  display: inline-block;
+  color: yellow;
+  font-size: 18px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.success {
+  background: green;
+  color: #ffffff;
+}
+
+.error {
+  background: red;
+  color: #ffffff;
+}
